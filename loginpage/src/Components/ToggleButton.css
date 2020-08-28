@@ -1,0 +1,15 @@
+.toggleButton {
+  border: none;
+  margin-left:24px;
+  background:white;
+}
+
+.toggleDiv {
+  align-content: center;
+  width: 18px;
+  height: 2px;
+  margin: 4px;
+  background: black;
+}
+
+

@@ -1,0 +1,46 @@
+.rectangle {
+  float: left;
+  margin-left: 15px;
+  margin-top: 16px;
+  width: 220px;
+  height: 150px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.number {
+  margin-left: 16px;
+  margin-top: 21px;
+  width: 51px;
+  height: 44px;
+  text-align: left;
+  font: normal normal bold 36px/44px Proxima Nova;
+  letter-spacing: 0px;
+  color: #b3b3b3;
+  opacity: 1;
+}
+
+.textBold {
+  margin-left: 16px;
+  margin-top: 10px;
+  width: 64px;
+  height: 17px;
+  text-align: left;
+  font: normal normal bold 14px/17px Proxima Nova;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.textMute {
+  margin-left: 16px;
+  margin-top: 4px;
+  width: 77px;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 12px/15px Proxima Nova;
+  letter-spacing: 0px;
+  color: #8e8e8e;
+  opacity: 1;
+}

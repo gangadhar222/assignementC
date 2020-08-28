@@ -1,9 +1,13 @@
 import React from 'react';
-import LoginPage from './Components/LoginPage'
+import LoginPage from './Components/LoginPage';
+import Dashboard from './Components/Dashboard';
+import RectangularCopmonent from './Components/RectangularComponent'
 
 function App() {
   return (
-   <LoginPage />
+  //  <LoginPage />
+  <Dashboard />
+  // <RectangularCopmonent />
   );
 }
 
