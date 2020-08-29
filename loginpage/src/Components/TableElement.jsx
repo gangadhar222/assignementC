@@ -7,9 +7,9 @@ export default function TableElement(props) {
   };
   let name = {
     float: "left",
-    margin: "5px 755px 0px 48px",
+    margin: "5px 705px 0px 48px",
     padding: "18px 24px 0px 0px",
-    width: "77px",
+    width: "85px",
     height: "15px",
     textAlign: "left",
     font: "normal normal normal 12px/15px Proxima Nova",
@@ -24,7 +24,7 @@ export default function TableElement(props) {
   };
   let deld = {
     float: "left",
-    margin: "14px 97px 0px 0px",
+    margin: "14px 115px 0px 0px",
     padding: "18px 0px 0px 24px",
     width: "auto",
     height: "15px",
@@ -49,6 +49,7 @@ export default function TableElement(props) {
   let bar = {
     float: "left",
     marginTop: "35px",
+    marginLeft:"10px",
     width: `${props.percent}px`,
     height: "8px",
     background: "#00a29d 0% 0% no-repeat padding-box",

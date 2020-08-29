@@ -38,23 +38,23 @@ export default function Dashboard() {
           percent:97
       },
       {
-        name:"Daarun Shaikh",
+        name:"Daha Mosin",
         percent:86
     },
     {
-        name:"Daarun Shaikh",
+        name:'Dahana Gaitonde',
         percent:78
     },
     {
-        name:"Daarun Shaikh",
+        name:"Ganesh Gaitonde",
         percent:74
     },
     {
-        name:"Daarun Shaikh",
+        name:"Johnny Smith",
         percent:72
     },
     {
-        name:"Daarun Shaikh",
+        name:"Falcon Mouly",
         percent:70
     }
   ]

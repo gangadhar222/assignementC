@@ -18,6 +18,7 @@ export class LoginPage extends Component {
   };
 
   render() {
+      const {validateUser} = this.props
     return (
       <div className="image">
         <div className="form">
@@ -28,16 +29,17 @@ export class LoginPage extends Component {
               We make easy for everyone to manage logistics operations
             </p>
             <form>
-              <label for="email" className="emailLabel">
+              <label  className="emailLabel">
                 Email
               </label>
               <input
-                type="email"
+                type="text"
                 name="email"
                 className="email"
                 placeholder="Enter email"
+                onChange={this.handleChange}
               />
-              <label for="password" className="emailLabel">
+              <label  className="emailLabel">
                 Password
               </label>
               <input
@@ -45,11 +47,12 @@ export class LoginPage extends Component {
                 name="password"
                 className="email"
                 placeholder="Enter password"
+                onChange={this.handleChange}
               />
               <input type="checkbox" className="checkbox" />
               <p className="remember">Remember me</p>
               <p className="forgot">Forgot password?</p>
-              <button className="login">Login</button>
+              <button className="login" onClick={()=>validateUser(this.state)}>Login</button>
             </form>
           </div>
         </div>
