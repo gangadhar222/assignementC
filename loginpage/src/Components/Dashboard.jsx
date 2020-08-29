@@ -2,6 +2,7 @@ import React from "react";
 import ToggleButton from "./ToggleButton";
 import "./Dashboard.css";
 import RectangularComponent from "./RectangularComponent";
+import TableElement from "./TableElement";
 
 export default function Dashboard() {
   let details = [
@@ -30,6 +31,33 @@ export default function Dashboard() {
       icon: "/icon_undel.png",
     },
   ];
+
+  let tableDetails = [
+      {
+          name:"Daarun Shaikh",
+          percent:97
+      },
+      {
+        name:"Daarun Shaikh",
+        percent:86
+    },
+    {
+        name:"Daarun Shaikh",
+        percent:78
+    },
+    {
+        name:"Daarun Shaikh",
+        percent:74
+    },
+    {
+        name:"Daarun Shaikh",
+        percent:72
+    },
+    {
+        name:"Daarun Shaikh",
+        percent:70
+    }
+  ]
   return (
     <div>
       <div className="navbar">
@@ -66,26 +94,9 @@ export default function Dashboard() {
         <p className="del">NA</p>
         <p className="del">DELIVERY IN %</p>
       </div>
-      <div className="float">
-        <p className="name marginLeft">Daarun Shaikh</p>
-        <p className="deld">34</p>
-        <p className="deld">27</p>
-        <p className="deld">0</p>
-        <p className="percent">
-          97 %
-        </p>
-        <p className="bar"></p>
-      </div>
-      <div className="float">
-        <p className="name marginLeft">Daha Mosin</p>
-        <p className="deld">34</p>
-        <p className="deld">27</p>
-        <p className="deld">0</p>
-        <p className="percent">
-          97 %
-        </p>
-        <p className="bar"></p>
-      </div>
+      {
+          tableDetails.map(item=><TableElement name={item.name} percent={item.percent}/>)
+      }
     </div>
   );
 }
