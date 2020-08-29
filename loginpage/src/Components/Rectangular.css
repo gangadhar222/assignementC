@@ -36,7 +36,7 @@
 .textMute {
   margin-left: 16px;
   margin-top: 4px;
-  width: 77px;
+  width: auto;
   height: 15px;
   text-align: left;
   font: normal normal normal 12px/15px Proxima Nova;

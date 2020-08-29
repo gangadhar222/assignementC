@@ -57,6 +57,34 @@ export default function Dashboard() {
             />
           ))}
         </div>
+        <div className="piechart"></div>
+      </div>
+      <div className="table">
+        <p className="fename">FE NAME</p>
+        <p className="del">DEL</p>
+        <p className="del">UNDEL</p>
+        <p className="del">NA</p>
+        <p className="del">DELIVERY IN %</p>
+      </div>
+      <div className="float">
+        <p className="name marginLeft">Daarun Shaikh</p>
+        <p className="deld">34</p>
+        <p className="deld">27</p>
+        <p className="deld">0</p>
+        <p className="percent">
+          97 %
+        </p>
+        <p className="bar"></p>
+      </div>
+      <div className="float">
+        <p className="name marginLeft">Daha Mosin</p>
+        <p className="deld">34</p>
+        <p className="deld">27</p>
+        <p className="deld">0</p>
+        <p className="percent">
+          97 %
+        </p>
+        <p className="bar"></p>
       </div>
     </div>
   );

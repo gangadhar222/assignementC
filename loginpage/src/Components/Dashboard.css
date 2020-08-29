@@ -98,12 +98,111 @@ toggleComponent {
 }
 
 .info {
+  float: left;
   margin-top: 80px;
-  margin-left: 24px;
   width: 943px;
   height: 182px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 4px #eaeaea;
   border-radius: 10px;
   opacity: 1;
+}
+
+.piechart {
+}
+
+.table {
+  clear: both;
+}
+.fename {
+  float: left;
+  margin-top: 14px;
+  margin-right: 755px;
+  margin-left: 48px;
+  width: auto;
+  height: 13px;
+  text-align: left;
+  font: normal normal bold 11px/13px Proxima Nova;
+  letter-spacing: 0.66px;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.del {
+  float: left;
+  padding-top: 18px;
+  padding-left: 24px;
+  margin-top: 14px;
+  margin-right: 75px;
+  height: 13px;
+  text-align: left;
+  font: normal normal bold 11px/13px Proxima Nova;
+  letter-spacing: 0.66px;
+  color: #2c2c2c;
+}
+
+.float {
+  clear: both;
+  display: block;
+}
+.name {
+  float: left;
+  margin-top: 5px;
+  padding-top: 18px;
+  padding-left: 24px;
+  margin-left: 24px;
+  margin-right: 755px;
+  width: 77px;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 12px/15px Proxima Nova;
+  letter-spacing: 0px;
+  color: #4b4b4b;
+  opacity: 1;
+}
+
+.deld {
+  float: left;
+  margin-top: 14px;
+  margin-right: 87px;
+  padding-top: 18px;
+  padding-left: 24px;
+  width: auto;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 12px/15px Proxima Nova;
+  letter-spacing: 0px;
+  color: #4b4b4b;
+  opacity: 1;
+}
+
+.marginLeft {
+  margin-left: 24px;
+  padding-top: 18px;
+  padding-left: 24px;
+}
+
+.percent {
+  float: left;
+  margin-top: 14px;
+  padding-top: 18px;
+  padding-left: 24px;
+  width: auto;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 12px/15px Proxima Nova;
+  letter-spacing: 0px;
+  color: #4b4b4b;
+  opacity: 1;
+}
+
+.bar {
+  margin-right: 400px;
+  margin-top: 35px;
+  float: right;
+  width: 97px;
+  height: 8px;
+  background: #00a29d 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 0.3;
 }
