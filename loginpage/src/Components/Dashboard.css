@@ -109,6 +109,16 @@ toggleComponent {
 }
 
 .piechart {
+  float: left;
+  margin-top: 108px;
+  margin-left: 50px;
+  width: 152px;
+  height: 152px;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  background: conic-gradient(
+    #EA8A72 89deg,white 89deg 92deg, #FAD37B 92deg 150deg,white 150deg 153deg,#86D5A2 153deg 357deg,white 357deg 360deg);
 }
 
 .table {
